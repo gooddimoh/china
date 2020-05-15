@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Title</title>
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- favicons -->
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+	<link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+	<div class="app__logotype">
+		<img class="app__logotype-img" src="img/banner-top.png" alt="Logo">
+	</div>
+	<nav class="app__tab">
+	  <button class="app__tablink active" data-name="reserve">参与预约</button>
+	  <button class="app__tablink" data-name="项目介绍">项目介绍</button>
+	  <button class="app__tablink" data-name="规则介绍">规则介绍</button>
+	  <button class="app__tablink" data-name="FBC介绍">FBC介绍</button>
+	</nav>
+	<div id="reserve" class="reserve app__tabcontent" style="display: block;">
+		<div class="reserve-detail-info-header">
+			<h3 class="reserve-detail-info-title">当前预约总人数</h3>
+			<p class="reserve-detail-info-text">【特别注意】：刷子不会在预约中获得任何收益，APP上线之前所有刷子的大号、小号都会被封号处理。</p>
+		</div>
+		<div class="reserve-detail-info-num">
+			<h3>126336人</h3>
+			<p>每日限量预约1000人</p>
+		</div>
+		<div class="reserve-detail-info-btn">
+			<a class="reserve-detail-info-buy" href="#"><span>加微信群</span></a>
+			<p class="reserve-detail-info-wechat" area-label="open-popup"><img src="img/Shape@3x.png" alt="smiles"> <span>关注微信公众号</span></p>
+		</div>
+		<div class="all-reserve-info">
+			<p>邀请3人的用户：<span>922</span></p>
+			<p>预估奖励：<span>759 FBC</span></p>
+			<p>邀请100人的用户：<span>181</span></p>
+			<p>预估奖励：<span>1657 FBC</span></p>
+		</div>
+		<div class="cabinet-wrapper"></div>
+		<!-- <div class="cabinet">
+			<div class="cabinet-user">
+				<p class="cabinet-user__id">My reservation indormation <span>150000019704</span></p>
+				<div class="cabinet-user__btns">
+					<a href="#" class="cabinet-user__btn cabinet-user__btns-logout">logout</a>
+					<a href="#" class="cabinet-user__btn cabinet-user__btns-invite">invite friends</a>
+				</div>
+			</div>
+			<div class="cabinet-info all-reserve-info">
+				<p>invation code:<span>922432</span></p>
+				<p>estimated reward:<span>759 FBC</span></p>
+				<p>my friends:<span>0</span> <span class="btn-view-friends">view</span></p>
+				<p>my team:<span>0</span></p>
+			</div>
+			<div class="cabinet__friends">
+				<div class="cabinet__friends-wrapper">
+					<table class="cabinet__friends-table">
+						<tbody>
+							<tr class="cabinet__friends-table-titles">
+								<th>registration time</th>
+								<th>friend phone number</th>
+								<th>his friends</th>
+							</tr>
+							<tr class="cabinet__friends-info">
+								<td>23.03.2019 13:34:13</td>
+								<td>1502300019704</td>
+								<td>23</td>
+							</tr>
+							<tr class="cabinet__friends-info">
+								<td>23.03.2019 13:54:13</td>
+								<td>1500332d19704</td>
+								<td>123123</td>
+							</tr>
+							<tr class="cabinet__friends-info">
+								<td>23.03.2019 15:34:13</td>
+								<td>150001d922204</td>
+								<td>1223</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div> -->
+		<div class="wechat-public-box-wrapper">
+			<div class="wechat-public-box">
+				<h2>关注微信公众号</h2>
+				<img src="img/wechatPublic.png" alt="wechatPublic">
+				<p>长按识别二维码</p>
+			</div>
+		</div>
+		<div class="reserve-form">
+			<div class="reserve-form-input reserve-form-input-first">
+				<span>手机号</span>
+				<div class="reserve-form-input-box">
+					<input type="tel" name="" placeholder="请输入手机号">
+					<button class="reserve-form-input-btn" type="button">发送验证码</button>
+				</div>
+			</div>
+			<div class="reserve-form-input reserve-form-input-second">
+				<span>验证码</span>
+				<div class="reserve-form-input-box">
+					<input type="tel" name="" placeholder="请输入验证码">
+				</div>
+			</div>
+			<div class="reserve-form-input reserve-form-input-third">
+				<span>邀请码</span>
+				<div class="reserve-form-input-box">
+					<input type="tel" name="" placeholder="请输入邀请码">
+				</div>
+			</div>
+			<div class="reserve-form-input reserve-form-input-fourth">
+				<span>密码</span>
+				<div class="reserve-form-input-box">
+					<input type="text" name="" id="input-password" placeholder="手机号后六位">
+				</div>
+			</div>
+			<button class="reserve-form-btn reserve-form-btn-reserve">预约</button>
+			<button class="reserve-form-btn reserve-form-btn-login"  id="button-login">登录</button>
+			<p class="reserve-form-tips reserve-form-tips-reserve">我已预约 点我登录</p>
+			<p class="reserve-form-tips reserve-form-tips-login">注册</p>
+		</div>
+		<div class="reserve-detail-reward">
+			<h5>预约奖励</h5>
+			<div class="reward-item">
+				<h6>奖励一：预约送任务</h6>
+				<p>所有参与预约的用户均可在项目上线后可获得初级任务一个。</p>
+			</div>
+			<div class="reward-item">
+				<h6>奖励二：邀请好友预约得FBC</h6>
+				<p>活动期间每邀请1位好友参与预约可获得10枚FBC</p>
+			</div> 
+			<div class="reward-item">
+				<h6>奖励三：邀请3人预约参加瓜分70万FBC</h6>
+				<p>活动期间成功邀请3位好友参与预约的用户共同瓜分70万FBC。</p>
+			</div>
+			<div class="reward-item">
+				<h6>奖励四：邀请100人预约参加瓜分30万FBC</h6>
+				<p>活动期间成功邀请100位好友参与预约的用户共同瓜分30万FBC。</p>
+			</div>
+			<div class="reward-item">
+				<h6>奖励五：邀好友预约奖中级任务一个</h6>
+				<p>活动期间成功邀请100位好友的用户可在微信公众号内发送您的预约信息截图和您的微信号，我们会主动与您联系并将您拉入团长群。我们会在APP上线后给您发放中级任务一个。</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- табы -->
+	<div id="项目介绍" class="app__tabcontent">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem laborum perspiciatis repellat incidunt molestiae voluptas dolore unde in eligendi dignissimos ipsum aperiam tempore accusantium sapiente assumenda architecto, consequuntur quisquam. Esse?</p>
+	</div>
+	<div id="规则介绍" class="app__tabcontent">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem laborum perspiciatis repellat incidunt molestiae voluptas dolore unde in eligendi dignissimos ipsum aperiam tempore accusantium sapiente assumenda architecto, consequuntur quisquam. Esse?</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem laborum perspiciatis repellat incidunt molestiae voluptas dolore unde in eligendi dignissimos ipsum aperiam tempore accusantium sapiente assumenda architecto, consequuntur quisquam. Esse?</p>
+	</div>
+	<div id="FBC介绍" class="app__tabcontent">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem laborum perspiciatis repellat incidunt molestiae voluptas dolore unde in eligendi dignissimos ipsum aperiam tempore accusantium sapiente assumenda architecto, consequuntur quisquam. Esse?</p>
+	</div>
+
+	<script src="js/scripts.min.js"></script>
+</body>
+</html>
